@@ -1,0 +1,22 @@
+.nav {
+  display: flex;
+  min-height: 115px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  flex-flow: column wrap;
+}
+.nav--first {
+  background-color: $home-nav-link-bg;
+}
+.nav--second {
+  background-color: $cal-nav-link-bg;
+}
+.nav--third {
+  background-color: $join-nav-link-bg;
+}
+@media screen and (min-width: 545px) {
+  .nav {
+    flex-flow: row wrap;
+  }
+}

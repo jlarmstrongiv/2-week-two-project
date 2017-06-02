@@ -1,0 +1,14 @@
+.footer {
+  display: flex;
+  width: 100%;
+  background-color: $nav-bg;
+  flex-flow: column wrap;
+}
+@media screen and (min-width: $bp-medium) {
+  .footer {
+    flex-flow: row wrap;
+  }
+  .footer__nav {
+    flex: 1 1 50%;
+  }
+}

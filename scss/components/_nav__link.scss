@@ -1,0 +1,15 @@
+.nav__link {
+  // Parent Flex Container
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // Properties
+  flex: 1 1 30%;
+  text-decoration: none;
+  color: $nav-link-color;
+}
+@media screen and (min-width: 545px) {
+  .nav__link {
+    flex: 0 0 100px;
+  }
+}

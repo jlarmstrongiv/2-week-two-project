@@ -1,0 +1,9 @@
+.footer__copyright {
+  display: inline-block;
+  color: $copyright-text;
+}
+@media screen and (min-width: $bp-medium) {
+  .footer__copyright {
+    padding-right: 16px;
+  }
+}

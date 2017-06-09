@@ -1,0 +1,9 @@
+.get-involved__module {
+  flex: 1 1 100%;
+  padding: 0 20px;
+}
+@media screen and (min-width: $bp-medium) {
+  .get-involved__module {
+    flex: 1 1 30%;
+  }
+}

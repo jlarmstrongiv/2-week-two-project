@@ -1,0 +1,9 @@
+.get-involved__flex-wrapper {
+  display: flex;
+  flex-flow: column wrap;
+}
+@media screen and (min-width: $bp-medium) {
+  .get-involved__flex-wrapper {
+    flex-flow: row wrap;
+  }
+}
